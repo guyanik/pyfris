@@ -73,7 +73,7 @@ The main class for interacting with the FRIS API.
 - `get_publication(pub_id: str, verbose: bool=False)`: Retrieve publication information given its ID.
 - `ppxml(xml)`: Pretty print XML responses. Only used when verbose=True. Example output snippet below.
 
-![snippet](pretty_print_xml.png?raw=true "Pretty print XML")
+![snippet](pretty_print_xml.png?raw=true "Pretty Print XML")
 
 ## Testing
 
