@@ -20,7 +20,7 @@ pip install pyfris
 Here's a quick example of how to use pyfris:
 
 ```python
-from fris_api import FRIS_API
+from pyfris.fris_api import FRIS_API
 
 # Create an instance of the FRIS_API
 fris = FRIS_API()
@@ -71,7 +71,9 @@ The main class for interacting with the FRIS API.
 - `get_pub_ids(uuid: str, verbose: bool = False)`: Retrieve all publication IDs for a project given its UUID.
 - `get_project(uuid: str, verbose: bool = False)`: Retrieve project information given its UUID.
 - `get_publication(pub_id: str, verbose: bool=False)`: Retrieve publication information given its ID.
-- `ppxml(xml)`: Pretty print XML responses.
+- `ppxml(xml)`: Pretty print XML responses. Only used when verbose=True. Example output snippet below.
+
+![snippet](pretty_print_xml.png?raw=true "Pretty print XML")
 
 ## Testing
 
@@ -91,7 +93,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Authors
 
-- Görkem Uyanık
+- H. Görkem Uyanık
 
 ## Acknowledgements
 
